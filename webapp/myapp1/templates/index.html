@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiStall Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .btn-custom {
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+        }
+        .btn-custom a {
+            color: white;
+            text-decoration: none;
+        }
+        .btn-custom:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center fw-bold text-white" href="#">
+                    <img src="https://th.bing.com/th/id/OIP.4XcHzFDeDP7lGhe7ubZAdQHaCH?w=347&h=100&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="DigiStall" style="width: 150px; border-radius: 15px;" class="me-2">
+                </a>                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Log Out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-4">
+        <div class="text-center">
+            <img src="https://th.bing.com/th/id/OIP.4XcHzFDeDP7lGhe7ubZAdQHaCH?w=347&h=100&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="DigiStall" style="width: 150px;">
+            <h3 class="mt-4">DigiStall Management</h3>
+
+            <div class="card mt-5 border-0">
+                <div class="card-body">
+                    <form>
+                        <h4 class="text-dark">Administrator</h4><br>
+
+                        <button class="btn btn-custom btn-lg w-50 mb-3">
+                            <a href="page1/">Add Products</a>
+                        </button>
+                        <br>
+
+                        <button class="btn btn-custom btn-lg w-50 mb-3">
+                            <a href="page2/">Manage Products</a>
+                        </button>
+                        <br>
+
+                        <button class="btn btn-custom btn-lg w-50 mb-3">
+                            <a href="#">Manage Users</a>
+                        </button>
+                        <br>
+
+                        <button class="btn btn-custom btn-lg w-50 mb-3">
+                            <a href="#">User's Messages</a>
+                        </button>
+                    </form>
+                    <hr class="my-3 text-light">
+                </div>
+            </div>
+
+            <a href="page1/" class="btn btn-primary mt-4">Go to Myapp1 Page 1</a>
+            <a href="page2/" class="btn btn-secondary mt-4">Go to Myapp1 Page 2</a>
+        </div>
+    </main>
+
+    <footer class="text-center mt-5">
+        <p class="mb-0">&copy; 2024 DigiStall. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
